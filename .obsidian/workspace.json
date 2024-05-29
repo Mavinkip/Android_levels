@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9da4fd08c2df02b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Firstpp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Firstpp.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Firstpp.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Firstpp.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -171,12 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9da4fd08c2df02b5",
+  "active": "0a47ec97721dfe8f",
   "lastOpenFiles": [
+    "Firstpp.md",
+    "REAME.md.md",
     "Welcome.md",
     "Pasted image 20240530013228.png",
     "Untitled.md",
-    "Firstpp.md",
     "Pasted image 20240530013125.png",
     "Pasted image 20240530012946.png",
     "Pasted image 20240530005932.png",
