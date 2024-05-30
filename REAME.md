@@ -1,8 +1,9 @@
 ##1. Welcome!
  Here you'll learn how to build and run your first Android app in the Kotlin programming language
- ![[Pasted image 20240530013228.png]]
+ ![Image Description](Pasted%20image%2020240530013228.png)
+
  
- ![[Pasted image 20240530012946.png]]
+ ![Pasted%20image%2020240530012946.png](Pasted%20image%2020240530012946.png)
 
 
 ## **What you'll learn**
@@ -50,7 +51,8 @@ This folder contains `AndroidManifest.xml`**.** This file describes all the co
 
 
 this is the default Design view when u have created your  first  first project.
-It will show how the app or what you are making will look like and by default it will show hello ![[Screenshot 2024-05-29 105008 1.png]]
+It will show how the app or what you are making will look like and by default it will show hello ![Image Description](Screenshot%202024-05-29%20105008%201.png)
+
 
 
 
@@ -58,14 +60,14 @@ It will show how the app or what you are making will look like and by default it
 
 
 Then there is the  Split view where it shows  the design itself and the code you can write the code and see the template change simultaneously 
-![[Screenshot 2024-05-29 105712 2.png]]
+![Image Description](Screenshot%202024-05-29%20105712%202.png)
+
 
 
 
 
 Finally there is the code view it shows only the code of design and u can just write the code then go back to design to see what changes you have made
- ![[code 1.png]]
-]]
+![Image Description](code%201.png)
 
 
 In design and split there is the palette
@@ -87,7 +89,8 @@ Now run it and see it in our emulator  or phone
 The emulator starts and boots just like a physical device. Depending on the speed of your computer, this may take a while. You can look in the small horizontal status bar at the very bottom of Android Studio for messages to see the progress.
 
 This is how your app will look like in the emulator
-![[Pasted image 20240529114551.png]]
+![Image Description](Pasted%20image%2020240529114551.png)
+
 
 
 
@@ -109,7 +112,8 @@ On Android 4.2 and higher, the Developer options screen is hidden by default. To
 1. On your device, open **Settings > About phone** and tap **Build number** seven times.
 2. Return to the previous screen (**Settings**). **Developer options** appears at the bottom of the list. Tap **Developer options**.
 3. Enable **USB Debugging**.
-4. ![[Pasted image 20240529115917.png]]
+4![Image Description](Pasted%20image%2020240529115917.png)
+
 
 Now you can connect your device and run the app from Android Studio.
 
@@ -148,10 +152,12 @@ First, you'll learn how to add new color resources.
 **Change the text color and background of the TextView**
 
 1. In the **Project** panel on the left, double-click on **res** > **values** > **colors.xml** to open the color resource file.
-2. ![[Pasted image 20240529122322.png]]
+2.![Image Description](Pasted%20image%2020240529122322.png)
+
 3. 
 4. adding my own background  color
-5. ![[Pasted image 20240529122600.png]]
+5. ![Image Description](Pasted%20image%2020240529122600.png)
+
 
 
 ```xml
@@ -169,17 +175,21 @@ The `colors.xml` file opens in the editor. So far, three colors have been defi
 first lets make the text bigger and bold 
    1 Go back to activity_main.xml so you can see the XML code for the layout.
    Add a new property to the `TextView` called `android:textsize, and android:textstyle and start typing to set its value 32sp and bold. You can add this property anywhere inside the TextView 
-   ![[Pasted image 20240529124232.png]]
+  ![Image Description](Pasted%20image%2020240529124232.png)
+
    how it will look 
-   ![[Pasted image 20240529124311.png]]
+  ![Image Description](Pasted%20image%2020240529124311.png)
+
 
 2. then back to activity_main.xml so you can see the XML code for the layout.
 3. Add a new property to the `TextView` called `android:background`, and start typing to set its value to `@color`. You can add this property anywhere inside the TextView code.
 4. A menu pops up offering the predefined color resources:
-![[Pasted image 20240529124423.png]]
+![Image Description](Pasted%20image%2020240529124423.png)
+
  4. Choose **@color/mybackground
 5. Change the property `android:textColor` and give it a value of `@android:color/white`.
-6. ![[Pasted image 20240529124959.png]]
+![Image Description](Pasted%20image%2020240529124959.png)
+
 
 ```xml
 <TextView  
@@ -204,19 +214,31 @@ first lets make the text bigger and bold
   <color name="screenbackground">#05276A</color>
 ```
 2. Go back to `fragment_first.xml`.
-3. In the **Component Tree**, select the `ConstraintLayout`. ![[Pasted image 20240529125919.png]]![98c54173559bb461.png]![[Pasted image 20240529130056.png]]
+3. In the **Component Tree**, select the `ConstraintLayout`.![Image Description 1](Pasted%20image%2020240529125919.png)
+
+![Image Description 2](98c54173559bb461.png)
+
+![Image Description 3](Pasted%20image%2020240529130056.png)
+
 4. 
 5. In the **Attributes** panel, select the **background** property and press **Enter**. Type "c" in the field that appears.
-6. ![[Pasted image 20240529130207.png]]![[Pasted image 20240529130454.png]]
+6. ![Image Description 1](Pasted%20image%2020240529130207.png)
+
+![Image Description 2](Pasted%20image%2020240529130454.png)
+
 7. In the menu of colors that appears, select **@color/screenBackground**. Press **Enter** to complete the selection.
-8. ![[Pasted image 20240529130653.png]]
+8. ![Image Description](Pasted%20image%2020240529130653.png)
+
 ## **Add buttons and constrain their positions**
 pick from the pallet button and double click or drag to the design template
-![[Pasted image 20240529130953.png]]
+![Image Description](Pasted%20image%2020240529130953.png)
+
 
 
 The square represents the selected view. Each of the grey dots represents a constraint, to the top, bottom, left, and right;
-![[Pasted image 20240529131521.png]]]]![[Pasted image 20240529131711.png]]
+![Image Description 1](Pasted%20image%2020240529131521.png)
+![Image Description 2](Pasted%20image%2020240529131711.png)
+
 ### **To delete a constraint:**
 
 - In the design view or blueprint view, hold the `Ctrl` key (`Command` on a Mac) and move the cursor over the circle for the constraint until the circle highlights, then click the circle. ![1f8c250ad15873d5.png](https://developer.android.com/static/codelabs/build-your-first-android-app-kotlin/img/1f8c250ad15873d5.png)
@@ -232,12 +254,15 @@ If you delete a constraint and want it back, either undo the action, or create a
 1. Click on the  button, and then delete the constraint from the top of the button to the `TextView`.
 2. Click on the `TextView`, and then delete the constraint from the bottom of the text to the  button.
 lets add two more buttons and name them Next, Add and Subtract
-![[Pasted image 20240529132004.png]]
-To name them click on the button u want to name the on the attribute panel and change the name there
-![[Pasted image 20240529132148.png]]
-![[Pasted image 20240529132227.png]]where the was button rite next the do the same to the other two naming add and subtract
+![Image Description](Pasted%20image%2020240529132004.png)
 
-![[Pasted image 20240529132423.png]]
+To name them click on the button u want to name the on the attribute panel and change the name there
+![Image Description 1](Pasted%20image%2020240529132148.png)
+![Image Description 2](Pasted%20image%2020240529132227.png)
+where the was button rite next the do the same to the other two naming add and subtract
+
+![Image Description](Pasted%20image%2020240529132423.png)
+
 Here is the full code
 ```xml
 <?xml version="1.0" encoding="utf-8"?>  
@@ -289,11 +314,14 @@ Here is the full code
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 ## **Add a Edit text **
-On the palette search box search EditText and pick the plain text ![[Pasted image 20240529133049.png]]
-![[Pasted image 20240529133133.png]]lets chage the EditText Background to white
+On the palette search box search EditText and pick the plain text ![Image Description 1](Pasted%20image%2020240529133049.png)
+![Image Description 2](Pasted%20image%2020240529133133.png)
+lets chage the EditText Background to white
    1 go back to activity_main.xml so you can see the XML code for the layout.
 3. Add a new property to the `EditText` called `android:background`, and start typing to set its value to `@color`. .
-4. ![[Pasted image 20240529133512.png]]![[Pasted image 20240529133542.png]]
+4.![Image Description 1](Pasted%20image%2020240529133512.png)
+![Image Description 2](Pasted%20image%2020240529133542.png)
+
 
 
 ```xml
@@ -310,9 +338,13 @@ On the palette search box search EditText and pick the plain text ![[Pasted imag
 
 
 now ad the constrain for the text view
-![[Pasted image 20240529133851.png]]Add another text view and also change  the  back ground 
-![[Pasted image 20240529134206.png]]![[Pasted image 20240529134322.png]]Then add the constrains 
-![[Pasted image 20240529134417.png]]now make the text color in the edit text be black for both edit text
+![Image Description](Pasted%20image%2020240529133851.png)
+Add another text view and also change  the  back ground
+![Image Description 1](Pasted%20image%2020240529134206.png)
+![Image Description 2](Pasted%20image%2020240529134322.png)
+Then add the constrains
+![Image Description](Pasted%20image%2020240529134417.png)
+now make the text color in the edit text be black for both edit text
 and also add hint Enter number
 
 ```xml
@@ -375,7 +407,8 @@ and also remove the text hello world and replace it with  hint results
 ```
 
 
-![[Pasted image 20240529135408.png]]
+![Image Description](Pasted%20image%2020240529135408.png)
+
 
 
 
@@ -581,8 +614,9 @@ updated xml
 ```
 
 now let move to MainActivity.kt
-![[Pasted image 20240529233140.png]]
-![[Pasted image 20240529233116.png]]
+![Image Description 1](Pasted%20image%2020240529233140.png)
+![Image Description 2](Pasted%20image%2020240529233116.png)
+
 
 
 ## **Add functionality to the add and subtract button
@@ -597,8 +631,8 @@ val subtractButton = findViewById<Button>(R.id.subtractButton) // Button to perf
 val resultTextView = findViewById<TextView>(R.id.resultTextView) // TextView to display the result
 ```
 
-![[Pasted image 20240529234242.png]]
-]]
+![Image Description](Pasted%20image%2020240529234242.png)
+
 After assigning all the id from the xml now lets make it to that when we click on add button it dose something
 ```kotlin
 
@@ -630,12 +664,15 @@ else {
 resultTextView.text = "Please enter valid numbers" } } }
 ```
 Now lets run the app and see if it work 
-![[Pasted image 20240529235408.png]]
-
-the add button works well![[Pasted image 20240529235515.png]] 
+![Image Description](Pasted%20image%2020240529235408.png)
 
 
-the subtract button also works![[Pasted image 20240529235707.png]]
+the add button works well![Image Description](Pasted%20image%2020240529235515.png)
+
+
+
+the subtract button also works![Image Description](Pasted%20image%2020240529235707.png)
+
 
 
 
@@ -645,35 +682,43 @@ first lets make that next  page
 1. **Open the App Folder**:
     
     - In the Project view, expand the `app` folder by clicking on the arrow next to it.
-    - ![[Pasted image 20240530000400.png]]
+    ![Image Description](Pasted%20image%2020240530000400.png)
+
 1. **Open the Java or Kotlin Folder**:
     
     - Inside the `app` folder, expand the `java` (or `kotlin`, if you're using Kotlin) folder.
     - You will see several folders corresponding to your application's package name. Expand the folder that corresponds to your main package.
-    - ![[Pasted image 20240530000429.png]]
+    - ![Image Description](Pasted%20image%2020240530000400.png)
+
 1. **Right-Click the Package Folder**:
     
     - Right-click on the package folder where you want to create the new activity. This is usually the folder that contains your `MainActivity`.
-    - ![[Pasted image 20240530000505.png]]
+    - ![Image Description](Pasted%20image%2020240530000429.png)
+
 1. **Select New > Activity**:
     
     - From the context menu that appears, hover over `New`.
     - In the submenu, click on `Activity`.
-    - ![[Pasted image 20240530000557.png]]
+    - ![Image Description](Pasted%20image%2020240530000557.png)
+
 1. **Choose the Activity Type**:
     
     - A dialog box will appear with different types of activities you can create. Select `Empty Activity`.
-    - ![[Pasted image 20240530000635.png]]
+    - ![Image Description](Pasted%20image%2020240530000635.png)
+
 - 1. **Configure the New Activity**:
     
     - A new dialog box will appear asking for configuration details for the new activity.
     - **Activity Name**: Enter a name for the new activity (e.g., `SecondActivity`).
     - **Generate Layout File**: Ensure this option is checked. This will create an associated XML layout file.
     - **Backwards Compatibility (AppCompat)**: Ensure this option is checked to use AppCompatActivity.
-    - **Launcher Activity**: Leave this unchecked unless you want this new activity to be the entry point of your application.![[Pasted image 20240530000720.png]]![[Pasted image 20240530000849.png]]then finish
+  - **Launcher Activity**: Leave this unchecked unless you want this new activity to be the entry point of your application.![Image Description 1](Pasted%20image%2020240530000720.png)
+![Image Description 2](Pasted%20image%2020240530000849.png)
+then finish
 
 As u can see an activity `SecondActivity` and layout `activity_second.xml` file have been crated
-![[Pasted image 20240530001021.png]]
+![Image Description](Pasted%20image%2020240530001021.png)
+
 
 ## **Making Next button functional**
 in kotlin to move from one page to anoter is by using intent
@@ -706,7 +751,8 @@ nextButton.setOnClickListener {
 }
 ```
 
-![[Pasted image 20240530004109.png]]if u ever encounter this  then its not an error it just need u to import the Intent or sometimes the thing that is highlighted like textview, button or anything like that
+![Image Description](Pasted%20image%2020240530004109.png)
+if u ever encounter this  then its not an error it just need u to import the Intent or sometimes the thing that is highlighted like textview, button or anything like that
 
 **Second Activity content
 
@@ -714,16 +760,21 @@ in the second activity we will create a button that will congratulate you for ma
 
 let us  design  the `activity_second.xml'
 add the congratulation button and give it an id called message Button
-![[Pasted image 20240530005121.png]]![[Pasted image 20240530005241.png]] 
+![Image Description 1](Pasted%20image%2020240530005121.png)
+![Image Description 2](Pasted%20image%2020240530005241.png)
+
 
 
 now add the previous button with id back button 
-![[Pasted image 20240530005454.png]]
-![[Pasted image 20240530005744.png]]
+![Image Description 1](Pasted%20image%2020240530005454.png)
+![Image Description 2](Pasted%20image%2020240530005744.png)
+
 
 
 Background color lets give it  my background 
-![[Pasted image 20240530005908.png]]![[Pasted image 20240530005932.png]]
+![Image Description 1](Pasted%20image%2020240530005908.png)
+![Image Description 2](Pasted%20image%2020240530005932.png)
+
 
 
 ```xml
@@ -953,8 +1004,8 @@ class SecondActivity : AppCompatActivity() {
 ```
 
 lets run and see what we have
-![[Pasted image 20240530013125.png]]
+![Image Description 1](Pasted%20image%2020240530013125.png)
+![Image Description 2](Pasted%20image%2020240530012946.png)
 
-![[Pasted image 20240530012946.png]]
 
 Congratulations you have made your first app fell proud cause this is just the start
